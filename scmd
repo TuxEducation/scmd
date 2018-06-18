@@ -12,7 +12,7 @@ alias addall='git add .'
 alias gcmit='git commit -m'
 alias gacmit='git commit -am'
 alias gcmitall='git add . && git commit -m'
-alias gmrg='git merge'
+alias mergewith='git merge'
 mergein() { THIS=$(cbranch); git checkout $1; git merge $THIS;  }
 alias rebasewith='git rebase'
 rebasein() { THIS=$(cbranch); git checkout $1; git rebase $THIS;  }
@@ -29,17 +29,8 @@ alias gl='git log'
 alias gdf='git diff'
 alias resetchng='git reset HEAD'
 alias resetlastcmit='git reset HEAD~'
-# Please do not modify any of command above this line
+
+# Please do not modify any of command above this line, or modify on your own risk.
 alias reload='source ~/.bash_profile'
 
 # below this line you can add your custom commands and functions
-alias gotomnm='cd ~/development/mnmbackend/ && workon mnmbackend'
-alias predev='git checkout predev'
-alias billdesk='git checkout bill-desk-integration'
-alias billtest='git checkout billdesk-test-deploy'
-alias nodal='git checkout nodal-accout-integration'
-alias nodaltest='git checkout nodal-with-predev'
-alias shell='bash /Users/vishalnagda/development/run_shell.sh'
-alias runmnm='bash /Users/vishalnagda/development/deploy-mnm.sh'
-alias gotoexp='cd /Users/vishalnagda/development/experiments/ && workon experiment'
-alias mnmlg='tail -f /Users/vishalnagda/development/mnmbackend/log/debug.log'
