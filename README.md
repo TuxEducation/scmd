@@ -1,6 +1,17 @@
 # SCMD
 ***SCMD*** stand for ***Short/Smart Commands***.
 
+------------
+
+
+##Installation
+- copy and paste `cd ~ && { curl -O https://raw.githubusercontent.com/vishalnagda1/scmd/master/.scmd ; cd -; }` command in your terminal. This command will download the scmd file in your system at **home** path of your userprofile.
+- Paste `source ~/.scmd` at the end of your **.bash_profile** file. You can open **.bash_profile** in **vim** editor by pasting `vi ~/.bash_profile` command.
+- Reopen your terminal again or paste `source ~/.bash_profile` command in your terminal to make it work.
+
+------------
+
+
 ## Help
 `newcmd` *[new command]*
 - *It will automatically add a new command to scmd file.*
