@@ -8,6 +8,7 @@ alias newbranch='git checkout -b'
 alias rmbranch='git branch -D'
 alias cpbn='cbranch| pbcopy'
 alias gst='git status'
+alias gad='git add'
 alias addall='git add .'
 alias gcmit='git commit -m'
 alias gacmit='git commit -am'
@@ -19,16 +20,19 @@ rebasein() { THIS=$(cbranch); git checkout $1; git rebase $THIS;  }
 alias rbc='git add . && git rebase --continue'
 alias rmchng='git checkout .'
 alias rmall='git checkout . && git clean -f'
-alias rmf='git checkout'
+alias cout='git checkout'
+alias gcln='git clean -f'
 alias gpull='git pull'
 alias pullr='git pull --rebase'
-opull() { git pull origin predev; }
+opull() { THIS=$(cbranch); git pull origin $THIS; }
+alias pullo='git pull origin'
 alias gpush='git push'
-opush() { git push origin predev; }
+opush() { THIS=$(cbranch); git push origin $THIS; }
+alias pusho='git push origin'
 alias gl='git log'
 alias gdf='git diff'
-alias resetchng='git reset HEAD'
-alias resetlastcmit='git reset HEAD~'
+alias rmadd='git reset HEAD'
+alias rmcmit='git reset HEAD~'
 
 # Please do not modify any of command above this line, or modify on your own risk.
 alias reload='source ~/.bash_profile'
