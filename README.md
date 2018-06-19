@@ -49,7 +49,7 @@
 
 
 
-`gb` *[list branch]*
+`gb` *[git branch]*
 - *list all the local **git branches***
 - **syntax** : `gb`
 - **usage**: Just type `gb`,`gb -a` in terminal.
@@ -67,7 +67,7 @@
 
 
 
-`gcb` *[new branch]*
+`gcb` *[git create branch]*
 - *This command is used to create and switch to **new git branch**.*
 - **syntax** : **newbranch** *branch_name*
 - **usage**: `gcb my-new-feature-branch`
