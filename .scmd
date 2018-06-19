@@ -2,14 +2,13 @@ newcmd() { echo "alias $1='$2'" >> ${BASH_SOURCE[0]}; }
 vedit() { vi ${BASH_SOURCE[0]}; }
 nedit() { nano ${BASH_SOURCE[0]}; }
 ocmd() { open ${BASH_SOURCE[0]}; }
-alias lsbranch='git branch'
+alias gb='git branch'
 alias cbranch='git symbolic-ref --short HEAD'
-alias newbranch='git checkout -b'
+alias gcb='git checkout -b'
 alias rmbranch='git branch -D'
 alias cpbn='cbranch| pbcopy'
 alias gst='git status'
-alias gad='git add'
-alias addall='git add .'
+alias ga='git add'
 alias gcmit='git commit -m'
 alias gacmit='git commit -am'
 alias gcmitall='git add . && git commit -m'

@@ -49,10 +49,10 @@
 
 
 
-`lsbranch` *[list branch]*
+`gb` *[git branch]*
 - *list all the local **git branches***
-- **syntax** : `lsbranch`
-- **usage**: Just type `lsbranch` in terminal.
+- **syntax** : `gb`
+- **usage**: Just type `gb`,`gb -a` in terminal.
 
 ------------
 
@@ -67,10 +67,10 @@
 
 
 
-`newbranch` *[new branch]*
+`gcb` *[git create branch]*
 - *This command is used to create and switch to **new git branch**.*
 - **syntax** : **newbranch** *branch_name*
-- **usage**: `newbranch my-new-feature-branch`
+- **usage**: `gcb my-new-feature-branch`
 
 ------------
 
@@ -103,19 +103,10 @@
 
 
 
-`gad` *[git add]*
+`ga` *[git add]*
 - *This command is used to all or particualr file to the **HEAD**.*
 - **syntax** : **gad** *perameter*
-- **usage**: `gad .`, `gad file_path`
-
-------------
-
-
-
-`addall` *[add all]*
-- *This command add all the modified and newly created files to the **HEAD**.*
-- **syntax** : `addall`
-- **usage**: Just type `addall` in terminal.
+- **usage**: `ga .`, `ga file_path`
 
 ------------
 
