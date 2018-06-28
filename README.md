@@ -5,7 +5,7 @@
 
 
 ##Installation
-- copy and paste `cd ~ && { curl -O https://raw.githubusercontent.com/vishalnagda1/scmd/master/.scmd ; cd -; }` command in your terminal. This command will download the scmd file in your system at **home** path of your userprofile.
+- copy and paste `cd ~ && { curl -O https://raw.githubusercontent.com/TuxEducation/scmd/master/.scmd ; cd -; }` command in your terminal. This command will download the scmd file in your system at **home** path of your userprofile.
 - Paste `source ~/.scmd` at the end of your **.bash_profile** file. You can open **.bash_profile** in **vim** editor by pasting `vi ~/.bash_profile` command.
 - Reopen your terminal again or paste `source ~/.bash_profile` command in your terminal to make it work.
 
@@ -334,7 +334,7 @@
 
 
 ## Contributing
-1. Fork it ( https://github.com/vishalnagda1/scmd/fork )
+1. Fork it ( https://github.com/TuxEducation/scmd/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
